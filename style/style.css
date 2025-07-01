@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #bbce8aff;
+}
+
+body {
+    color: #313715ff;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    padding: 1.3rem;
+    text-align: center;
+    background-image: url('../img/selva.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "LXGW Marker Gothic", sans-serif;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #d16014ff;
+}
+
+header p {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #d16014ff;
+    font-size: large;
+}
+
+section {
+    border-bottom: 0.3rem solid #939f5cff;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    padding: 1rem;
+    padding-top: 0%;
+    border-left: 0rem;
+}
+
+blockquote {
+    font-family: "LXGW Marker Gothic", sans-serif;
+    text-align: center;
+    font-size: 110%;
+}
+
+form {
+    border: 0.6rem solid #313715ff;
+    margin: 1rem;
+    border-radius: 2px;
+}
+
+input[type="radio"] {
+    accent-color: #d16014ff;
+    margin-bottom: 0.6rem;
+}
+
+h3 {
+    padding: 0.6rem 0rem;
+    padding-top: 0%;
+}
+
+button {
+    background-color: #d16014ff;
+    border: none;
+    padding: 0.6rem;
+    color: #313715ff;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #313715ff;
+}
+
+footer p {
+    background-color: #313715ff;
+    color: #e2f9b8ff;
+}
+
+

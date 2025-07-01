@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url('../img/selva.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: #e2f9b8ff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "LXGW Marker Gothic", sans-serif;
+    color: #d16014ff;
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #e2f9b8ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+fieldset {
+    border: 2px solid #d16014ff;
+    border-radius: 2px;
+    padding: 1rem;
+    margin: 5px;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 0.1rem;
+    border: 1px solid #313715;
+    border-radius: 2px;
+    background-color: #e2f9b8ff;
+}
+
+select {
+    cursor: pointer;
+    background-color: #e2f9b8ff;
+    color: #313715;
+    border-radius: 2px;
+    border: none;
+}
+
+button {
+    background-color: #d16014ff;
+    color: #e2f9b8ff;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}

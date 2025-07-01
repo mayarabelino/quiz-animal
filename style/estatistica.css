@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url('../img/selva.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
+
+.estrutura {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    color: #e2f9b8ff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h1 {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: "LXGW Marker Gothic", sans-serif;
+}
+
+table {
+    width: 100%;
+    border: 0.1rem solid #d16014ff;
+    border-radius: 2px;
+}
+
+th {
+    background-color: #d16014ff;
+    padding: 0.7rem;
+    border-radius: 2px;
+}
+
+td {
+    padding: 1rem;
+}
+
+a {
+    color: #d16014ff;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 0.4rem;
+    background-color: #bbce8aff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
