@@ -1,12 +1,13 @@
 # Quiz Animal Interior 🐾
 
-Este é um quiz interativo feito em PHP com MySQL e XAMPP, que identifica qual animal representa a sua personalidade.
+Este é um quiz interativo desenvolvido para um projeto da faculdade, feito em PHP com MySQL e XAMPP, que identifica qual animal representa a sua personalidade.
 
 ## 📦 Funcionalidades
 
 - Tela de cadastro (nome, idade, sexo)
 - 10 perguntas de multipla escolha
 - Resultado calculado e salvo no banco
+- Estatísticas dos jogadores
 
 ## 🚀 Como usar
 
@@ -28,3 +29,4 @@ Estrutura da tabela disponível em `db/banco_usuarios.sql`.
 - `quiz.php` — Exibe o quiz completo
 - `salvar_resultado.php` — Processa o resultado
 - `resultado.php` — Mostra o animal com imagem e descrição
+- `estatistica.php` — Mostra as estatpisticas de todos os usuários
